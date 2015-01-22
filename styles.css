@@ -1,0 +1,69 @@
+input[type="number"] {
+  max-width: 80%;
+}
+
+div.outer {
+  position: fixed;
+  top: 41px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 300;
+}
+h1, h2, h3, h4 { font-weight: 600; }
+
+#controls, #counter, .documentation {
+  /* Appearance */
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  /* Fade out while not hovering */
+  opacity: 0.65;
+  zoom: 0.9;
+  transition: opacity 500ms 1s;
+}
+#controls:hover, #counter:hover, .documentation:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+.documentation {
+  font-size: 12px;
+   opacity: 0.9;
+}
+
+#clickme {
+  color: #fff;
+  background-color: #6496c8;
+  border: none;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px #27496d;
+  text-align: center;
+  cursor: pointer;
+}
+#clickme:hover,
+section.press button.hover {
+  background-color: #417cb8
+}
+#clickme:active,
+#clickme.active {
+  background-color: #417cb8;
+  box-shadow: 0 2px #27496d;
+  transform: translateY(2px);
+}
+
+#counter {
+  padding: 5px 0px 5px 0px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
