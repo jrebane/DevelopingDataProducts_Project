@@ -12,4 +12,4 @@ date: "January 22, 2015"
 
 # Project Pitch Deck
 
-**[Click here](jrebane.github.io/DevelopingDataProducts_PitchDeck)** to view the completed data application hosted on ShinyApps.
+**[Click here](http://jrebane.github.io/DevelopingDataProducts_PitchDeck)** to view the completed data application hosted on ShinyApps.
